@@ -1,7 +1,5 @@
 # To Do
 
-- Add SplashScreen
-- Add Icon
 - Change app name
 - Review readme
 
