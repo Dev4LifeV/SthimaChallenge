@@ -45,10 +45,10 @@ class MyApp extends StatelessWidget {
     return Container(
       width: MediaQuery.of(Get.context!).size.width * 0.8,
       height: MediaQuery.of(Get.context!).size.height * 0.8,
-      child: Image.network(
-        url,
-        fit: BoxFit.contain,
-      ),
+      decoration: BoxDecoration(
+          image: DecorationImage(
+        image: NetworkImage(url, scale: 0.5),
+      )),
     );
   }
 
