@@ -1,3 +1,3 @@
-final String caatasUrl = 'https://cataas.com/cat?json=true';
+final String caatasUrl = 'https://cataas.com/cat/gif?json=true';
 
-String getUrlFormated() => caatasUrl.replaceAll('cat?json=true', '');
+String getUrlFormated() => caatasUrl.replaceAll('cat/gif?json=true', '');
