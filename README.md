@@ -1,7 +1,5 @@
 # To Do
 
-- Check MeowButton unit tests
-- Check API unit tests
 - Add SplashScreen
 - Add Icon
 - Change app name
