@@ -28,13 +28,13 @@ I strongly recommend to run the project in Android Studio environment because in
 
 The platforms that I'm sure that's working are: Android, iOS and web.
 
-To build a web app, run:
+To build an web app, run:
 flutter build web
 
-To build a Android Package, run:
+To build an Android Package, run:
 flutter build apk
 
-To build a iOS App Store Package, run:
+To build an iOS App Store Package, run:
 flutter build ipa
 
 # That's all folks!
