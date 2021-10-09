@@ -40,9 +40,8 @@ flutter build ipa
 # That's all folks!
 
 For any questions or anything else here's my contacts:
-Phone: +5551991042707
-E-mail: vctudo.27@gmail.com
+(Brazil) +5551991042707 | vctudo.27@gmail.com
 
 Thanks for the opportunity and for your time.
 
-- Victor Cristóvão Oliveira Proppe
+ Victor Cristóvão Oliveira Proppe
