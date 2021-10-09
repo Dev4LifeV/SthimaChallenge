@@ -13,6 +13,7 @@ import 'components/caption1.dart';
 void main() {
   runApp(GetMaterialApp(
     home: KittiesApp(),
+    color: Color(0xffE5E5E5),
   ));
 }
 
