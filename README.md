@@ -34,7 +34,7 @@ flutter build web
 To build a Android Package, run:
 flutter build apk
 
-To build a iOS App Store Package, run
+To build a iOS App Store Package, run:
 flutter build ipa
 
 # That's all folks!
