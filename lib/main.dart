@@ -23,26 +23,21 @@ class MyApp extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xffE5E5E5),
       body: Center(
+          child: Container(
+        margin: EdgeInsets.all(20),
         child: SingleChildScrollView(
-          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-            Obx(() => _controller.isLoading
-                ? LoadingIndicator()
-                : _controller.showError
-                    ? _getError()
-                    : _controller.cat != null
-                        ? _getImage(getUrlFormated() + _controller.cat!.url!)
-                        : _getCaptions()),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                MeowButton(
-                  onTap: _controller.fetchData,
-                )
-              ],
-            )
-          ]),
-        ),
-      ),
+            child:
+                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Obx(() => _controller.isLoading
+              ? LoadingIndicator()
+              : _controller.showError
+                  ? _getError()
+                  : _controller.cat != null
+                      ? _getImage(getUrlFormated() + _controller.cat!.url!)
+                      : _getCaptions()),
+          _getButton()
+        ])),
+      )),
     );
   }
 
@@ -61,6 +56,7 @@ class MyApp extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
+        _getCat(),
         Caption1(text: 'TAKE ME'),
         Caption2(text: 'TO A'),
         KittieText(),
@@ -75,6 +71,29 @@ class MyApp extends StatelessWidget {
         Caption1(text: 'SORRY! :('),
         Caption2(
             text: 'An error has ocurred. Please try again or contact support.'),
+      ],
+    );
+  }
+
+  Widget _getCat() {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Image.asset('./lib/assets/cat-baloons.png',
+            width: MediaQuery.of(Get.context!).size.width * 0.2,
+            height: MediaQuery.of(Get.context!).size.height * 0.2,
+            fit: BoxFit.contain)
+      ],
+    );
+  }
+
+  Widget _getButton() {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        MeowButton(
+          onTap: _controller.isLoading ? () => null : _controller.fetchData,
+        )
       ],
     );
   }
