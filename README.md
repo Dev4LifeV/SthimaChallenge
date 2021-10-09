@@ -1,3 +1,12 @@
+# To Do
+
+- Check MeowButton unit tests
+- Check API unit tests
+- Add SplashScreen
+- Add Icon
+- Change app name
+- Review readme
+
 # Azumo Challenge
 
 First of all, I'd like to say that this challenge was amazing (I waste a lot of time tapping to find different gifs and that's why I got late).
@@ -34,15 +43,14 @@ flutter build web
 To build a Android Package, run:
 flutter build apk
 
-To build a iOS App Store Package, run
+To build a iOS App Store Package, run:
 flutter build ipa
 
 # That's all folks!
 
 For any questions or anything else here's my contacts:
-Phone: +5551991042707
-E-mail: vctudo.27@gmail.com
+(Brazil) +5551991042707 | vctudo.27@gmail.com
 
 Thanks for the opportunity and for your time.
 
-- Victor Cristóvão Oliveira Proppe
+ Victor Cristóvão Oliveira Proppe
