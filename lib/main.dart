@@ -12,11 +12,11 @@ import 'components/caption1.dart';
 
 void main() {
   runApp(GetMaterialApp(
-    home: MyApp(),
+    home: KittiesApp(),
   ));
 }
 
-class MyApp extends StatelessWidget {
+class KittiesApp extends StatelessWidget {
   final MeowButtonController _controller = Get.put(MeowButtonController());
 
   Widget build(BuildContext context) {
