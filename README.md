@@ -1,8 +1,3 @@
-# To Do
-
-- Change app name
-- Review readme
-
 # Azumo Challenge
 
 First of all, I'd like to say that this challenge was amazing (I waste a lot of time tapping to find different gifs and that's why I got late).
