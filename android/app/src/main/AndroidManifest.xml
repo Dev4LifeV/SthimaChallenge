@@ -2,7 +2,7 @@
     package="com.challenge.azumo.azumo_challenge">
    <application
         android:label="azumo_challenge"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
