@@ -238,7 +238,7 @@ class MeowButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Obx(() => InkWell(
           child: CustomPaint(
-            size: Size(300, (300 * 0.43283582089552236).toDouble()),
+            size: Size(280, (280 * 0.43283582089552236).toDouble()),
             painter: RPSCustomPainter(color: _controller.onTapColor),
           ),
           onHover: _controller.changeColorHovering,
