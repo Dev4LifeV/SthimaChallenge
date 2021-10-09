@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.challenge.azumo.azumo_challenge">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="azumo_challenge"
+        android:label="Kitties"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
