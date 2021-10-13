@@ -1,8 +1,6 @@
-# Azumo Challenge
+# Sthima Challenge
 
-First of all, I'd like to say that this challenge was amazing (I waste a lot of time tapping to find different gifs and that's why I got late).
-
-So, the project runs as well on mobile as on web, the behaviours won't be affected by the platform.
+The project runs as well on mobile as on web, the behaviours won't be affected by the platform.
 
 # Editors, IDEs, SDKs
 
@@ -40,8 +38,8 @@ flutter build ipa
 # That's all folks!
 
 For any questions or anything else here's my contacts:
-(Brazil) +5551991042707 | vctudo.27@gmail.com
+(Brazil) +5551991042707 | vctudo.27@gmail.com | victorcristovaoproppe@gmail.com
 
 Thanks for the opportunity and for your time.
 
- Victor Cristóvão Oliveira Proppe
+Victor Cristóvão Oliveira Proppe
