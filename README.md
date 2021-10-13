@@ -1,4 +1,4 @@
-# Sthima Challenge
+# Sthima Challenge 
 
 The project runs as well on mobile as on web, the behaviours won't be affected by the platform.
 
