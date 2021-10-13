@@ -1,4 +1,4 @@
-import 'package:azumo_challenge/entities/enums/httpAdapterName_enum.dart';
+import 'package:sthima_challenge/entities/enums/httpAdapterName_enum.dart';
 import 'package:http/http.dart' as http;
 
 class HttpAdapter {

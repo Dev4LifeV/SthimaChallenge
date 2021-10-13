@@ -1,6 +1,6 @@
-import 'package:azumo_challenge/components/caption1.dart';
-import 'package:azumo_challenge/components/caption2.dart';
-import 'package:azumo_challenge/components/kittieText.dart';
+import 'package:sthima_challenge/components/caption1.dart';
+import 'package:sthima_challenge/components/caption2.dart';
+import 'package:sthima_challenge/components/kittieText.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart' as test;
 import 'package:test/test.dart';

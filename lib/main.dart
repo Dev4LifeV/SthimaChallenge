@@ -1,8 +1,8 @@
-import 'package:azumo_challenge/components/caption2.dart';
-import 'package:azumo_challenge/components/kittieText.dart';
-import 'package:azumo_challenge/components/loading.dart';
-import 'package:azumo_challenge/components/meowButton/meowButton.dart';
-import 'package:azumo_challenge/components/meowButton/meowButton_controller.dart';
+import 'package:sthima_challenge/components/caption2.dart';
+import 'package:sthima_challenge/components/kittieText.dart';
+import 'package:sthima_challenge/components/loading.dart';
+import 'package:sthima_challenge/components/meowButton/meowButton.dart';
+import 'package:sthima_challenge/components/meowButton/meowButton_controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

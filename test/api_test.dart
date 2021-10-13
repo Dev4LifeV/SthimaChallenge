@@ -1,6 +1,6 @@
-import 'package:azumo_challenge/entities/enums/httpAdapterName_enum.dart';
-import 'package:azumo_challenge/entities/models/cat_model.dart';
-import 'package:azumo_challenge/gateways/cat_gateway.dart';
+import 'package:sthima_challenge/entities/enums/httpAdapterName_enum.dart';
+import 'package:sthima_challenge/entities/models/cat_model.dart';
+import 'package:sthima_challenge/gateways/cat_gateway.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

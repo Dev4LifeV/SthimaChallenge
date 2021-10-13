@@ -1,6 +1,5 @@
-import 'package:azumo_challenge/entities/models/cat_model.dart';
-import 'package:azumo_challenge/gateways/cat_gateway.dart';
-import 'package:flutter/gestures.dart';
+import 'package:sthima_challenge/entities/models/cat_model.dart';
+import 'package:sthima_challenge/gateways/cat_gateway.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import '../../entities/enums/httpAdapterName_enum.dart';

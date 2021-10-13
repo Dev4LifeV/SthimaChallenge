@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:azumo_challenge/components/meowButton/meowButton_controller.dart';
+import 'package:sthima_challenge/components/meowButton/meowButton_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
